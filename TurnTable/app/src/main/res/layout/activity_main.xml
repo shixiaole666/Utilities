@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/yukee1">
+
+    <Button
+        android:id="@+id/wheel_btn"
+        android:text="Luck Wheel"
+        style="@style/SpecialButton" />
+
+    <Button
+        android:id="@+id/roll_btn"
+        style="@style/SpecialButton"
+        android:text="Roll Selector" />
+
+    <Button
+        android:id="@+id/lay_btn"
+        style="@style/SpecialButton"
+        android:text="Lay Eggs" />
+
+</LinearLayout>
