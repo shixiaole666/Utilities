@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="40dp"
+    android:viewportWidth="1536"
+    android:viewportHeight="1024">
+    <!-- 用 group 包裹所有 path，并设置旋转中心和角度 -->
+    <group
+        android:pivotX="768"
+        android:rotation="180"
+        android:pivotY="512">
+    <path
+        android:fillAlpha="0.5"
+        android:fillColor="#ffffff"
+        android:pathData="M1080.4,768H327.6C180.7,768 64,654.7 64,512s116.7,-256 263.6,-256h752.9C1227.3,256 1344,369.3 1344,512s-116.7,256 -263.6,256z"
+        android:strokeAlpha="0.5" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M1088,512m-368,0a368,368 0,1 0,736 0,368 368,0 1,0 -736,0Z" />
+  </group>
+</vector>
